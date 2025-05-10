@@ -1,0 +1,36 @@
+.home-Words h2 {
+  width: 100%;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-size: 5.5rem;
+  font-weight: 400;
+}
+
+.container-recent {
+  display: flex;
+  justify-content: center;
+}
+
+.recent-projects {
+  background-color: #242021;
+  color: #e3e3e3;
+  width: 50%;
+  height: 860px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.recent-projects-tags {
+  display: flex;
+  justify-content: center;
+}
+
+.recent-projects-tags p {
+  margin: 0.5em;
+}
+
+.recent-projects-image {
+  background-color: black;
+}
