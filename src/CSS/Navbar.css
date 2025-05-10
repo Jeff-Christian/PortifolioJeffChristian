@@ -1,0 +1,75 @@
+.relative-nav {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  position: relative;
+  align-items: end;
+}
+
+.nav {
+  width: 567px;
+  height: 108px;
+}
+
+.nav nav {
+  align-items: flex-start;
+}
+
+.nav nav ul {
+  display: flex;
+  gap: 1em;
+}
+
+.logo {
+  width: 800px;
+  padding: 0px;
+}
+
+.nav-header {
+  display: flex;
+  flex-flow: column;
+  height: 270px;
+}
+
+.nav-header-subtitle {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.name {
+  display: flex;
+  color: #c7201a;
+  font-weight: 500;
+  font-size: 3em;
+}
+
+.name_jeff {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 500;
+  line-height: 1;
+  margin-right: 20px;
+}
+
+.name_christian {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.nav-header-slogan {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-header-slogan h1 {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 1.25em;
+}
+.nav-header-slogan h1 span {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 1.05em;
+}
