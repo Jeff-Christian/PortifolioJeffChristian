@@ -6,6 +6,89 @@
   font-weight: 400;
 }
 
+/* Conecte-se */
+.aboutContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 1367px;
+  height: 676px;
+}
+
+.conect {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 506px;
+  height: 100%;
+  background-color: #242021;
+}
+
+.conect h1 {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ffff;
+}
+
+.conect a {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #c7201a;
+  margin-bottom: 20px;
+}
+
+.textConect {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1em;
+}
+
+.logoJC {
+  width: 417px;
+  height: 311px;
+}
+
+.aboutMe {
+  width: 838px;
+  height: 100%;
+  background-color: #010101;
+  display: flex;
+}
+
+.textAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.illustration {
+  width: 455px;
+  height: 641px;
+  margin-top: 2em;
+}
+
+.textAbout h1 {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffff;
+}
+
+.textAbout p {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffff;
+  max-width: 362px;
+  text-align: left;
+}
+
+/* recentes projetos */
+
 .container-recent {
   display: flex;
   justify-content: center;
