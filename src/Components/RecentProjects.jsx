@@ -3,25 +3,27 @@ import React from "react";
 function RecentProjects() {
   return (
     <>
-      <div className="container-recent">
-        <div className="recent-projects">
-          <p>[projeto recente]</p>
-          <h1>Recent Project</h1>
-          <h3>Nome do Projeto</h3>
-          <p>Descrição do Projeto</p>
-          <div className="recent-projects-tags">
-            <p>principal</p>
-            <p>frame</p>
-            <p>usos</p>
+      <section className="container">
+        <div className="recentproject">
+          <h2>[Projeto Recente]</h2>
+          <h1>Anime Tracker crud list</h1>
+          <div>
+            <h3>Sua lista de animes salvas</h3>
+            <p>
+              Uma aplicação full stack para registrar os animes assistidos, com
+              informações como data, nota e onde foi assistido.
+            </p>
+            <ul>
+              <li>React</li>
+              <li>Vite</li>
+              <li>Node</li>
+              <li>Express</li>
+              <li>Mysql</li>
+            </ul>
           </div>
-          <button>
-            <a href="/">Ver Detalhes</a>
-          </button>
         </div>
-        <div className="recent-projects-image">
-          <h1>Imagem projeto</h1>
-        </div>
-      </div>
+        <div className="imageproject"></div>
+      </section>
     </>
   );
 }

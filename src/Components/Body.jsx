@@ -11,7 +11,6 @@ function Body() {
       <AboutMe />
       <Creative />
       <RecentProjects />
-      <Services />
     </>
   );
 }

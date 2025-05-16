@@ -21,6 +21,12 @@ body {
   min-height: 100vh;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
 a {
   font-family: "Anton", sans-serif;
   font-size: 1.25em;
