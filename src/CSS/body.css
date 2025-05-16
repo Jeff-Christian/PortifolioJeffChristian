@@ -195,3 +195,96 @@
   background-color: black;
   background-image: url("https://drive.google.com/file/d/1EFs6Uv9aKjU0zeCNcpi-ndwDFIW_NGtb/view");
 }
+
+/* Serviços */
+
+.servicescontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.servicesTitle {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-size: 5.5rem;
+  font-weight: 400;
+  max-width: 416px;
+}
+
+.ServicesList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.List {
+  height: 255px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3em;
+}
+
+.title {
+  width: 22.5em;
+  text-align: left;
+}
+
+.List h2 {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.List h1 {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.keys {
+  width: 11.25em;
+  text-align: left;
+}
+
+.List ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.List ul li {
+  max-width: 214px;
+  color: #c7201a;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.text {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.List p {
+  letter-spacing: -0.04em;
+  max-width: 17em;
+  font-size: 1.25em;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.listImage {
+  margin-left: 17rem;
+}
+
+.List img {
+  width: 231px;
+  height: 252px;
+  background-color: #242021;
+}
