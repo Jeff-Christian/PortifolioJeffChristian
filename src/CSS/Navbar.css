@@ -18,6 +18,23 @@
 .nav nav ul {
   display: flex;
   gap: 1em;
+  align-items: center;
+  padding: 0;
+}
+
+.resume {
+  font-family: "Anton", sans-serif;
+  font-size: 1.25em;
+  color: #ffff;
+  background-color: #c7201a;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.resume:hover {
+  background-color: #242021;
+  border-color: #fff;
+  color: #ffff;
 }
 
 .logo {

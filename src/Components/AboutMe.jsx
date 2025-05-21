@@ -13,6 +13,9 @@ function AboutMe() {
               @creativeChristian
             </a>
             <a href="https://github.com/Jeff-Christian">Jeff-Christian</a>
+            <a href="https://www.behance.net/jeffersonchristian">
+              jeffersonchristian
+            </a>
           </div>
           <div>
             <img className="logoJC" type="image/svg+xml" src={logoJC} alt="" />

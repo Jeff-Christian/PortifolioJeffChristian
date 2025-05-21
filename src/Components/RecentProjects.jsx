@@ -1,4 +1,5 @@
 import React from "react";
+import animeTracker from "../assets/animetracker.png";
 
 function RecentProjects() {
   return (
@@ -22,7 +23,9 @@ function RecentProjects() {
             </ul>
           </div>
         </div>
-        <div className="imageproject"></div>
+        <div className="imageproject">
+          <img src={animeTracker} alt="" />
+        </div>
       </section>
     </>
   );

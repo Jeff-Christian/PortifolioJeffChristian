@@ -1,13 +1,17 @@
 import "./App.css";
 import Body from "./Components/Body";
-import Creative from "./Components/Creative";
-import Navbar from "./Components/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router";
+import Works from "./Routes/Works";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Body />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Body />} />
+          <Route path="/Works" element={<Works />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

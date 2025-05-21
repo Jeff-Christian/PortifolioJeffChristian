@@ -5,10 +5,12 @@ import RecentProjects from "./RecentProjects";
 import Services from "./Services";
 import AboutMe from "./AboutMe";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 function Body() {
   return (
     <>
+      <Navbar />
       <AboutMe />
       <Creative />
       <RecentProjects />

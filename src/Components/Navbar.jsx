@@ -1,6 +1,10 @@
 import React from "react";
+import { Link } from "react-router";
+
 import "../CSS/Navbar.css";
+
 import logo from "../assets/CREATIVECHRISTIAN.svg";
+import resume from "../assets/JéffersonChristian_desenvolvedorFullStack.pdf";
 
 function Navbar() {
   return (
@@ -10,16 +14,26 @@ function Navbar() {
           <nav>
             <ul>
               <li>
-                <a href="/">Sobre Mim</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/work">Projetos</a>
+                <Link to="/Works">Projetos</Link>
               </li>
               <li>
-                <a href="/news">Algo</a>
+                <a href="/news">Serviços</a>
               </li>
               <li>
                 <a href="/contact">Contato</a>
+              </li>
+              <li>
+                <a
+                  href={resume}
+                  dowload="JéffersonChristian_desenvolvedorFullStack.pdf"
+                  target="_blank"
+                  className="resume"
+                >
+                  Currículo
+                </a>
               </li>
             </ul>
           </nav>

@@ -1,4 +1,6 @@
 import React from "react";
+import branding from "../assets/soltisceBranding.jpg";
+import campaign from "../assets/DiadasMaes.png";
 
 function Services() {
   return (
@@ -33,7 +35,7 @@ function Services() {
                 </p>
               </div>
               <div className="listImage">
-                <img src="" alt="" />
+                <img src={branding} alt="solstice café mockup branding" />
               </div>
             </div>
             <div className="List">
@@ -60,7 +62,7 @@ function Services() {
               </div>
 
               <div className="listImage">
-                <img src="" alt="" />
+                <img src={campaign} alt="campanha de dia das mães Vila" />
               </div>
             </div>
             <div className="List">
