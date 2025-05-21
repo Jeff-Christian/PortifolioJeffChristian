@@ -20,10 +20,10 @@ function Navbar() {
                 <Link to="/Works">Projetos</Link>
               </li>
               <li>
-                <a href="/news">Serviços</a>
+                <a href="/#services">Serviços</a>
               </li>
               <li>
-                <a href="/contact">Contato</a>
+                <a href="/#contact">Contato</a>
               </li>
               <li>
                 <a

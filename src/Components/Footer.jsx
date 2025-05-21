@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       <footer>
-        <section className="footerContainer">
+        <section className="footerContainer" id="contact">
           <div>
             <img className="logo" type="image/svg+xml" src={logo} alt="" />
           </div>

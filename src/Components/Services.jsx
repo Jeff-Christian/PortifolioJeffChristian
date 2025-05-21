@@ -1,18 +1,20 @@
 import React from "react";
 import branding from "../assets/soltisceBranding.jpg";
 import campaign from "../assets/DiadasMaes.png";
+import content from "../assets/doisporum.png";
+import product from "../assets/adesivos TUDUM.png";
 
 function Services() {
   return (
     <>
-      <section className="container">
+      <section className="container" id="services">
         <div className="servicescontainer">
           <div>
             <h2 className="servicesTitle">Serviços</h2>
           </div>
           <div className="ServicesList">
             <div className="List">
-              <div>
+              <div className="number">
                 <h2>01</h2>
               </div>
               <div className="title">
@@ -39,7 +41,7 @@ function Services() {
               </div>
             </div>
             <div className="List">
-              <div>
+              <div className="number">
                 <h2>02</h2>
               </div>
               <div className="title">
@@ -66,7 +68,7 @@ function Services() {
               </div>
             </div>
             <div className="List">
-              <div>
+              <div className="number">
                 <h2>03</h2>
               </div>
               <div className="title">
@@ -88,11 +90,11 @@ function Services() {
               </div>
 
               <div className="listImage">
-                <img src="" alt="" />
+                <img src={content} alt="" />
               </div>
             </div>
             <div className="List">
-              <div>
+              <div className="number">
                 <h2>04</h2>
               </div>
               <div className="title">
@@ -115,7 +117,7 @@ function Services() {
               </div>
 
               <div className="listImage">
-                <img src="" alt="" />
+                <img src={product} alt="" />
               </div>
             </div>
           </div>
