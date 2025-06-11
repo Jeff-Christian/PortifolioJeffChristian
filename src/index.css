@@ -67,15 +67,61 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* sm: 640px */
+@media (min-width: 640px) {
+  body {
+    max-width: 1350px;
   }
-  a:hover {
-    color: #747bff;
+  .List {
+    gap: 1em;
   }
-  button {
-    background-color: #f9f9f9;
+}
+
+/* md: 768px */
+@media (min-width: 768px) {
+  body {
+    max-width: 1350px;
+  }
+  .List {
+    gap: 1em;
+  }
+}
+
+/* lg: 1024px */
+@media (min-width: 1024px) {
+  body {
+    max-width: 1350px;
+  }
+  .List {
+    gap: 1em;
+  }
+}
+
+/* xl: 1280px */
+@media (min-width: 1280px) {
+  body {
+    max-width: 1200px;
+  }
+  #root {
+    max-width: 1450px;
+  }
+  .List {
+    gap: 1em;
+  }
+}
+
+/* xl: 1600px */
+@media (min-width: 1629px) {
+  #root {
+    width: 1600px;
+    max-width: 1629px;
+    margin: 0 auto;
+  }
+}
+
+/* xl: 1880px */
+@media (min-width: 1880px) {
+  #root {
+    margin: 0 auto;
   }
 }
