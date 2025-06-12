@@ -1,12 +1,38 @@
-# React + Vite
+Portfólio - Jéfferson Christian
+Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar meus projetos, habilidades e informações de contato profissional.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Acesse o site: https://portifolio-jeff-christian.vercel.app/
 
-Currently, two official plugins are available:
+✨ Sobre o projeto
+O objetivo principal deste portfólio é centralizar minhas experiências e facilitar o contato com potenciais empregadores, parceiros e colaboradores. Aqui você encontrará:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Meus principais projetos e cases de desenvolvimento;
 
-## Expanding the ESLint configuration
+Um resumo das minhas habilidades e tecnologias que domino;
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Meus canais de contato.
+
+🚀 Tecnologias utilizadas
+React
+
+Vite
+
+💻 Rodando o projeto localmente
+Se quiser clonar o projeto e rodar localmente:
+
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/seu-repo.git
+cd seu-repo
+npm install
+npm run dev
+📄 Status
+O projeto está em desenvolvimento. Novas melhorias e atualizações serão adicionadas em breve.
+
+📬 Contato
+Você pode me encontrar em:
+
+Email: Jeffchristian.webdesigner@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/jeffersonchristians/
