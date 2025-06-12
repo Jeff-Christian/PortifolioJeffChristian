@@ -110,6 +110,18 @@ button:focus-visible {
   }
 }
 
+@media (min-width: 1500px) {
+  body {
+    max-width: 1515px;
+  }
+  #root {
+    max-width: 1450px;
+  }
+  .List {
+    gap: 1em;
+  }
+}
+
 /* xl: 1600px */
 @media (min-width: 1629px) {
   #root {
@@ -117,11 +129,25 @@ button:focus-visible {
     max-width: 1629px;
     margin: 0 auto;
   }
+  body {
+    max-width: 1920px;
+  }
 }
 
 /* xl: 1880px */
 @media (min-width: 1880px) {
   #root {
     margin: 0 auto;
+  }
+}
+
+/* xl: 1920px */
+@media (min-width: 1920px) {
+  #root {
+    margin: 0 auto;
+    max-width: 1900px;
+  }
+  body {
+    max-width: 1920px;
   }
 }
