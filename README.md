@@ -5,6 +5,7 @@ Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar m
 🔗 Acesse o site: https://portifolio-jeff-christian.vercel.app/
 
 ✨ Sobre o projeto
+
 O objetivo principal deste portfólio é centralizar minhas experiências e facilitar o contato com potenciais empregadores, parceiros e colaboradores. Aqui você encontrará:
 
 Meus principais projetos e cases de desenvolvimento;
@@ -19,6 +20,7 @@ React
 Vite
 
 💻 Rodando o projeto localmente
+
 Se quiser clonar o projeto e rodar localmente:
 
 bash
@@ -29,9 +31,11 @@ cd seu-repo
 npm install
 npm run dev
 📄 Status
+
 O projeto está em desenvolvimento. Novas melhorias e atualizações serão adicionadas em breve.
 
 📬 Contato
+
 Você pode me encontrar em:
 
 Email: Jeffchristian.webdesigner@gmail.com

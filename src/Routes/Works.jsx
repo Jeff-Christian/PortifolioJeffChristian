@@ -1,8 +1,12 @@
 import React from "react";
+
+import { Link } from "react-router";
+
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 
 import "../CSS/Works.css";
+import Weseeyou from "../Pages/Wesseeyou";
 
 import projeto1 from "../assets/Weseeyou.png";
 import projeto2 from "../assets/Essën.png";
@@ -19,12 +23,12 @@ function Works() {
       <div className="worksContainer">
         <h2>Projetos Recentes</h2>
         <p>
-          <p className="textWorks">Works. </p> Explore uma coleção dos meus
-          projetos mais recentes de branding, conteúdo e produto desenvolvidos
-          para diferentes marcas.
+          <span className="textWorks">Works. </span> Explore uma coleção dos
+          meus projetos mais recentes de branding, conteúdo e produto
+          desenvolvidos para diferentes marcas.
         </p>
         <div className="projects">
-          <a href="">
+          <Link to="/Works/Weseeyou">
             <div className="top">
               <div className="left">
                 <p>We See You</p>
@@ -39,7 +43,7 @@ function Works() {
                 <img src={projeto1} alt="" />
               </div>
             </div>
-          </a>
+          </Link>
           <a href="">
             <div className="top">
               <div className="left">
