@@ -44,7 +44,7 @@ function Works() {
               </div>
             </div>
           </Link>
-          <a href="">
+          <Link to="/Works/Essen">
             <div className="top">
               <div className="left">
                 <p>Essën</p>
@@ -59,8 +59,8 @@ function Works() {
                 <img src={projeto2} alt="" />
               </div>
             </div>
-          </a>
-          <a href="">
+          </Link>
+          <Link to="/Works/Emocta">
             <div className="top">
               <div className="left">
                 <p>Emócta studio</p>
@@ -75,8 +75,8 @@ function Works() {
                 <img src={projeto3} alt="" />
               </div>
             </div>
-          </a>
-          <a href="">
+          </Link>
+          <Link to="/Works/OwlBlog">
             <div className="top">
               <div className="left">
                 <p>Owl Blog</p>
@@ -91,10 +91,10 @@ function Works() {
                 <img src={projeto4} alt="" />
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className="projects">
-          <a href="">
+          <Link to="/Works/AnimeTracker">
             <div className="top">
               <div className="left">
                 <p>Anime Tracker List</p>
@@ -109,8 +109,8 @@ function Works() {
                 <img src={projeto5} alt="" />
               </div>
             </div>
-          </a>
-          <a href="">
+          </Link>
+          <Link to="/Works/Sentir">
             <div className="top">
               <div className="left">
                 <p>Sentir</p>
@@ -125,8 +125,8 @@ function Works() {
                 <img src={projeto6} alt="" />
               </div>
             </div>
-          </a>
-          <a href="">
+          </Link>
+          <Link to="/Works/Alemdomapa">
             <div className="top">
               <div className="left">
                 <p>Além do Mapa</p>
@@ -141,7 +141,7 @@ function Works() {
                 <img src={projeto7} alt="" />
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
       <Footer />

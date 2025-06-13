@@ -24,12 +24,19 @@ Vite
 Se quiser clonar o projeto e rodar localmente:
 
 bash
+
 Copiar
+
 Editar
+
 git clone https://github.com/seu-usuario/seu-repo.git
+
 cd seu-repo
+
 npm install
+
 npm run dev
+
 📄 Status
 
 O projeto está em desenvolvimento. Novas melhorias e atualizações serão adicionadas em breve.
